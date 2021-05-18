@@ -1,0 +1,116 @@
+html {
+    padding: 0;
+    margin: 0;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+    font-family: 'Lato', sans-serif;
+}
+.page-bg {
+    background-color: #ffffa3;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header1 {
+    font-size: 2rem;
+    font-weight: 600;
+    width: 100px;
+}
+
+.emergency-service-content {
+    position: absolute;
+    left: 45%;
+    top: 55%;
+    color: white;
+}
+
+.emergency-service-text {
+    font-size: 2rem;
+    font-weight: 600;    
+}
+
+.page-content, .page-content-anti-skew {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #25547a;
+    width: 200px;
+}
+
+.page-content {
+    transform: skewX(-10deg);
+    overflow: hidden;
+    position: absolute;
+    left: 10%;
+}
+
+.page-content-anti-skew {
+    transform: skewX(+10deg);
+    color: white;
+    line-height: 2rem;
+}
+
+
+.page-content nav a,
+.page-content footer a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+
+.emergency {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 16px;
+}
+
+.emergency-truck {
+    color: red;
+    font-size: 2rem;
+    font-weight: 600;
+    width: 100px;
+}
+.emergency-img {
+    background-image: url(./truck.jpg);
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.install-section {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 16px;
+}
+
+.install-section a {
+    text-decoration: none;
+    color: green;
+    font-size: 2rem;
+    font-weight: 600;
+    width: 100px;
+}
+
+.install-image {
+    background-image: url('./truck-icon.jpg');
+    width: 200px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
